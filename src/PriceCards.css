@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-image: linear-gradient(to right, #0166E7, #30ABFF);
+    font-family: 'Roboto', sans-serif;
+}
+
+.card {
+    width: 18rem;
+}
+
+.card-header,
+.card-body {
+    background-color: #fff;
+}
+
+.card-title {
+    color: #9DA0A5;
+}
+
+.price-card {
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.price-card:hover {
+    transform: translateY(-5px);
+}
+
+.price-title {
+    margin-bottom: 10px;
+}
+
+.features {
+    list-style: none;
+    padding: 10px;
+}
+
+.features li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.features li.disabled {
+    color: #aaa;
+}
+
+.btn {
+    width: 100%;
+    border-radius: 30px;
+}
